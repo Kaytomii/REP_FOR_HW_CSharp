@@ -59,7 +59,7 @@
             name = Console.ReadLine();
 
             Console.Write("Enter the year of publication: ");
-            year = int.Parse(Console.ReadLine()!);
+            year = int.Parse(Console.ReadLine()!); // ! используется для того чтобы сказать что мы уверенвы что ReadLine вернет не null
 
             Console.Write("Enter description: ");
             description = Console.ReadLine();
